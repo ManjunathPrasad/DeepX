@@ -1,0 +1,33 @@
+.deepXGuide{
+    color: brown;
+    text-align: center;
+}
+.orderedList{
+    color: blue;
+}
+
+.tab {
+    padding-left: 20px; /* Adjust the value to control the indentation */
+  }
+
+.moveTabSpace{
+    padding-left: 10%;
+}
+
+.tabPlus{
+    padding-left: 20px;
+}
+
+.listFont{
+    font-weight: bold;
+}
+
+.resources{
+    color:blue;
+    font-weight: bold;
+}
+
+.resourcesOl{
+    color: black;
+    font-weight: normal;
+}

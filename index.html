@@ -7,11 +7,22 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
+    <style>
+        .links {
+            display: inline-flex;
+            gap: 2em; /* Adjust the space between links */
+        }
+    </style>
 </head>
 <body>
     <h1 class="deepXGuide">DeepXGuide</h1>
     <hr>
-    <h6 class="moveTabSpace"><a Pre-requisites href="prerequisites.html">Pre-requisites</a></h6>
+    <div class="links">
+        <h4 class="moveTabSpace"></h4><a href="prerequisites.html">Pre-requisites</a>
+        <h4 class="moveTabSpace"></h4><a href="PyTorch.html">PyTorch</a>
+    </div>
+    <!-- <h4 class="moveTabSpace"><a Pre-requisites href="prerequisites.html">Pre-requisites</a></h4>
+    <h4 class="moveTabSpace"><a Pre-requisites href="PyTorch.html">PyTorch</a></h4> -->
     <ol class="moveTabSpace">
         <li class="orderedList listFont">Problem Formulation </li>
         <p class="tab">They start by defining the problem they want to solve, such as object detection, image classification, or semantic segmentation.</p>
